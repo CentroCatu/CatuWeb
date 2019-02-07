@@ -45,3 +45,55 @@ ul li a {color: #fff;text-decoration: none;}
   color: white;
 }
 
+.col-md-4{
+  display: inline-block;
+  margin-left:-0.6em;
+}
+.col-md-4 img{
+  width:100%;
+  height:auto;
+}
+  
+body .carousel-control-prev-icon,
+body .carousel-indicators li,
+body .carousel-control-next-icon{
+  background-color:#000;
+}
+
+span.carousel-control-prev-icon {
+ position: relative;
+ right: 2.0em;
+}
+
+span.carousel-control-next-icon {
+ position: relative;
+ bottom: 2.0em;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin-left: 6em !important;
+  box-sizing: border-box; 
+  
+}
+
+ body .carousel-indicators li {
+  background-color: #de7b06 !important;
+  bottom: -5em !important;
+}
+
+body .carousel-control-prev-icon,body .carousel-control-next-icon {
+  bottom: -1em !important;
+  background-color: #de7b06 !important;
+}
+
+
+.textoEnImagen {
+  
+  display: block;
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+}
